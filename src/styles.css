@@ -1,6 +1,5 @@
 body {
   font-family: sans-serif;
-  border: 2px solid black;
 }
 
 #fahrenheit-link {
@@ -15,6 +14,10 @@ body {
 
 #celsius-link:hover {
   cursor: pointer;
+}
+
+.container {
+  border: 2px solid black;
 }
 
 .degrees {
