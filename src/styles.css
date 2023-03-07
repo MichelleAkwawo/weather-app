@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+#fahrenheit-link {
+  position: relative;
+  bottom: 85px;
+  left: 75px;
+}
+
+#fahrenheit-link:hover {
+  cursor: pointer;
+}
+
+#celsius-link:hover {
+  cursor: pointer;
+}
+
+.degrees {
+  position: relative;
+  bottom: 45px;
+  left: 45px;
+}
+
+.temp-elements {
+  position: relative;
+  bottom: 40px;
+}
+
+.sun {
+  font-size: 7em;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  font-size: 25px;
+  text-align: center;
+}
