@@ -18,6 +18,7 @@ body {
 
 .border {
   border: 2px solid #dadedf;
+  border-radius: 10px;
   padding: 20px;
 }
 

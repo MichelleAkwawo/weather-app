@@ -6,7 +6,7 @@ let now = new Date();
 let daysOfWeek = [
   "Sunday",
   "Monday",
-  "Tuesay",
+  "Tuesday",
   "Wednesday",
   "Thursday",
   "Friday",
