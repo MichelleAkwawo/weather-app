@@ -22,95 +22,102 @@
   </head>
   <body>
     <div class="container p-5">
-      <div class="row">
-        <!-- The search portion of the code START -->
-        <form id="search-text-input">
-          <input
-            type="text"
-            placeholder="Enter a city"
-            class="col-6 p-1 m-1"
-            id="city-search"
-          />
-          <input
-            type="submit"
-            value="Search"
-            class="btn btn-primary col-2 p-1 m-1"
-          />
-          <input
-            type="button"
-            value="Current"
-            class="btn btn-success col-2 p-1 m-1"
-            id="current-location-button"
-          />
-        </form>
-        <!-- The search portion of the code END -->
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <span>
-            <h1 id="temperature">.</h1>
-            <p class="degrees" id="celsius-link">°C |</p>
-            <p class="degrees" id="fahrenheit-link">°F</p>
-          </span>
-          <p class="temp-elements">
-            Humidity:
-            <span id="humidity"> </span>
-          </p>
-          <p class="temp-elements">Wind: <span id="wind-speed"> </span> km/h</p>
+      <div class="border">
+        <div class="row">
+          <!-- The search portion of the code START -->
+          <form id="search-text-input">
+            <input
+              type="text"
+              placeholder="Enter a city"
+              class="col-6 p-1 m-1"
+              id="city-search"
+            />
+            <input
+              type="submit"
+              value="Search"
+              class="btn btn-primary col-2 p-1 m-1"
+            />
+            <input
+              type="button"
+              value="Current"
+              class="btn btn-success col-2 p-1 m-1"
+              id="current-location-button"
+            />
+          </form>
+          <!-- The search portion of the code END -->
         </div>
-        <div class="sun col-4">🌤️</div>
-        <div class="col-4">
-          <h2 id="city"></h2>
-          <p class="todays-date">Monday 10:30</p>
-          <p id="weather-description"></p>
+        <div class="row">
+          <div class="col-4">
+            <span>
+              <h1 id="temperature">.</h1>
+              <p class="degrees" id="celsius-link">°C |</p>
+              <p class="degrees" id="fahrenheit-link">°F</p>
+            </span>
+            <p class="temp-elements">
+              Humidity:
+              <span id="humidity"> </span>
+            </p>
+            <p class="temp-elements">
+              Wind: <span id="wind-speed"> </span> km/h
+            </p>
+          </div>
+          <div class="sun col-4">🌤️</div>
+          <div class="col-4">
+            <h2 id="city"></h2>
+            <p class="todays-date">Monday 10:30</p>
+            <p id="weather-description"></p>
+          </div>
         </div>
-      </div>
 
-      <!-- Other weather information for the other days of the week  -->
-      <div class="row">
-        <div class="card m-4" style="width: 10rem">
-          <div class="card-body">
-            <h5 class="card-title">Mon</h5>
-            <p class="card-text">🌤️</p>
-            <p class="card-text">33°</p>
-            <p class="card-text">↘︎</p>
+        <!-- Other weather information for the other days of the week  -->
+        <div class="row">
+          <div class="card m-4" style="width: 10rem">
+            <div class="card-body">
+              <h5 class="card-title">Mon</h5>
+              <p class="card-text">🌤️</p>
+              <p class="card-text">33°</p>
+              <p class="card-text">↘︎</p>
+            </div>
           </div>
-        </div>
-        <div class="card m-4" style="width: 10rem">
-          <div class="card-body">
-            <h5 class="card-title">Tue</h5>
-            <p class="card-text">🌤️</p>
-            <p class="card-text">31°</p>
-            <p class="card-text">↘︎</p>
+          <div class="card m-4" style="width: 10rem">
+            <div class="card-body">
+              <h5 class="card-title">Tue</h5>
+              <p class="card-text">🌤️</p>
+              <p class="card-text">31°</p>
+              <p class="card-text">↘︎</p>
+            </div>
           </div>
-        </div>
-        <div class="card m-4" style="width: 10rem">
-          <div class="card-body">
-            <h5 class="card-title">Wed</h5>
-            <p class="card-text">⛈️</p>
-            <p class="card-text">31°</p>
-            <p class="card-text">↗︎</p>
+          <div class="card m-4" style="width: 10rem">
+            <div class="card-body">
+              <h5 class="card-title">Wed</h5>
+              <p class="card-text">⛈️</p>
+              <p class="card-text">31°</p>
+              <p class="card-text">↗︎</p>
+            </div>
           </div>
-        </div>
-        <div class="card m-4" style="width: 10rem">
-          <div class="card-body">
-            <h5 class="card-title">Thur</h5>
-            <p class="card-text">⛈️</p>
-            <p class="card-text">31°</p>
-            <p class="card-text">↗︎</p>
+          <div class="card m-4" style="width: 10rem">
+            <div class="card-body">
+              <h5 class="card-title">Thur</h5>
+              <p class="card-text">⛈️</p>
+              <p class="card-text">31°</p>
+              <p class="card-text">↗︎</p>
+            </div>
           </div>
-        </div>
-        <div class="card m-4" style="width: 10rem">
-          <div class="card-body">
-            <h5 class="card-title">Fri</h5>
-            <p class="card-text">⛈️</p>
-            <p class="card-text">32°</p>
-            <p class="card-text">↗︎</p>
+          <div class="card m-4" style="width: 10rem">
+            <div class="card-body">
+              <h5 class="card-title">Fri</h5>
+              <p class="card-text">⛈️</p>
+              <p class="card-text">32°</p>
+              <p class="card-text">↗︎</p>
+            </div>
           </div>
         </div>
       </div>
-      <p>
-        <a href="https://github.com/MichelleAkwawo/weather-app">
+      <p class="github">
+        <a
+          href="https://github.com/MichelleAkwawo/weather-app"
+          class="github-link"
+        >
           Open-source code
         </a>
         by Michelle Akwawo

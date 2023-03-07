@@ -16,8 +16,9 @@ body {
   cursor: pointer;
 }
 
-.container {
+.border {
   border: 2px solid #dadedf;
+  padding: 20px;
 }
 
 .degrees {
@@ -42,4 +43,12 @@ body {
 .card-text {
   font-size: 25px;
   text-align: center;
+}
+
+.github {
+  margin-top: 10px;
+}
+
+.github-link {
+  text-decoration: none;
 }
